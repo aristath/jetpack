@@ -25,6 +25,7 @@ $tools = array(
 	'simple-payments/simple-payments.php',
 	'verification-tools/verification-tools-utils.php',
 	'woocommerce-analytics/wp-woocommerce-analytics.php',
+	'wordpress-com-block-editor-iframe.php',
 	'geo-location.php',
 	'calypsoify/class.jetpack-calypsoify.php',
 
