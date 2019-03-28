@@ -1,6 +1,7 @@
 /**
  * External dependencies
  */
+import { __ } from '@wordpress/i18n';
 import { Component } from '@wordpress/element';
 import { Placeholder, SelectControl, TextControl } from '@wordpress/components';
 
@@ -8,7 +9,6 @@ import { Placeholder, SelectControl, TextControl } from '@wordpress/components';
  * Internal dependencies
  */
 import VRImageSave from './save';
-import { __ } from '../../utils/i18n';
 
 export default class VRImageEdit extends Component {
 	onChangeUrl = value => void this.props.setAttributes( { url: value.trim() } );
