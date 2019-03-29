@@ -13,11 +13,11 @@ import VRImageSave from './save';
 export const name = 'vr';
 
 export const settings = {
-	title: __( 'VR Image' ),
-	description: __( 'Embed 360° photos and Virtual Reality (VR) content' ),
+	title: __( 'VR Image', 'jetpack' ),
+	description: __( 'Embed 360° photos and Virtual Reality (VR) content', 'jetpack' ),
 	icon: 'embed-photo',
 	category: 'jetpack',
-	keywords: [ __( 'vr' ), __( 'panorama' ), __( '360' ) ],
+	keywords: [ __( 'vr', 'jetpack' ), __( 'panorama', 'jetpack' ), __( '360', 'jetpack' ) ],
 	supports: {
 		html: false,
 	},
