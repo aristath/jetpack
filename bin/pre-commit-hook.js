@@ -29,14 +29,15 @@ function parseGitDiffToPathArray( command ) {
 function phpcsFilesToFilter( file ) {
 	// If the file path starts with anything like in the array below, it should be linted.
 	const whitelist = [
-		'_inc/lib/debugger/',
-		'_inc/lib/class.jetpack-password-checker.php',
-		'extensions/',
-		'sync/class.jetpack-sync-module-auth.php',
 		'class.jetpack-gutenberg.php',
 		'class.jetpack-plan.php',
-		'modules/module-info.php',
+		'extensions/',
 		'functions.opengraph.php',
+		'_inc/lib/debugger/',
+		'_inc/lib/class.jetpack-password-checker.php',
+		'modules/masterbar/',
+		'modules/module-info.php',
+		'sync/class.jetpack-sync-module-auth.php',
 	];
 
 	if ( -1 !== whitelist.findIndex( filePath => file.startsWith( filePath ) ) ) {
